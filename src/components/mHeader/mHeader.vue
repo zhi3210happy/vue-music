@@ -1,7 +1,7 @@
 <template>
   <div class="m-header">
     <router-link tag="div" class="mine" to="/user">
-      <i class="icon-mine"></i>
+      <i class="icon-mine"><span>Even</span></i>
     </router-link>
     <div class="icon"></div>
     <h1 class="text">QQMusic</h1>
@@ -44,8 +44,18 @@
       top: 0
       left: 0
       .icon-mine
-        display: block
+        display: inline-block
         padding: 12px
         font-size: 20px
         color: $color-theme
+      span
+        display: inline-block
+        position absolute
+        text-align center
+        margin-left 2px 
+        height 20px
+        width 40px
+        font-size 15px
+        z-index: 100
+        color #ff00ff  
 </style>

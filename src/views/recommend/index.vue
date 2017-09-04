@@ -160,6 +160,7 @@ export default {
       overflow: hidden
       .slider-wrapper
         position: relative
+        height: 100%
         width: 100%
         overflow: hidden
         img

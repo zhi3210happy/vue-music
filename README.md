@@ -1,6 +1,9 @@
 # 基于Vue.js的音乐播放器（Webapp）
-
+#### 线上地址（请用使用手机模式观看）：[抢先体验](http://music.zhi3210happy.xin/) 后续会不断更新，欢迎Star！
 --------
+### 更新
+##### 添加播放器歌词随动功能，优化细节
+
 ### 概述
 #### 视图层
 > 
@@ -32,14 +35,17 @@
 * [x] nginx
 * [x] Express
 
-```
+#### 插件
+* [x] VueLazyLoad
+* [x] vue-awesome-swiper
+* [x] fastclick
+* [x] better-scroll
+
+
 #### 数据处理
 `src/common/js/song.js` 文件下对数据做了处理方便调用。
 
 `src/common/js/jsonp.js` 文件对josnp 进行包装返回Promise 方便做后续动作。
-
-
-#### 线上地址：[demo](http://music.zhi3210happy.xin/)。
 
 每个跳转都是用`Vue`的`transition`动画。包括路由之间切换时的简单动画，播放器打开时的动画等等。
 
@@ -58,6 +64,5 @@ npm run dev
 # cd server
 npm install
 npm start
-
-
-采用Nginx 转发端口 然后 使用 Express 监听相应端口并做路由处理，详细后续补充。
+```
+#### 采用Nginx 转发端口 然后 使用 Express 监听相应端口并做路由处理，详细后续补充。
