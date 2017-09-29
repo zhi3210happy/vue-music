@@ -5,7 +5,6 @@
     </router-link>
     <div class="icon"></div>
     <h1 class="text">QQMusic</h1>
-    
   </div>
 </template>
 
@@ -56,6 +55,5 @@
         height 20px
         width 40px
         font-size 15px
-        z-index: 100
         color #ff00ff  
 </style>
